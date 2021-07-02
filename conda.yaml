@@ -1,0 +1,8 @@
+name: coco_sample
+channels:
+  - anaconda
+dependencies:
+  - python=3.8
+  - pip:
+      - dvc[gdrive]
+      - pyodi
